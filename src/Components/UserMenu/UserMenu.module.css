@@ -1,0 +1,26 @@
+.text {
+  font-weight: 500;
+  font-size: 18px;
+  color: #1d1b1b;
+  margin-right: 15px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.btn {
+  min-width: 60px;
+  height: 30px;
+  margin-left: 15px;
+  padding: 4px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  transition: background-color, 200ms linear;
+}
+
+.btn:hover {
+  background-color: firebrick;
+}
